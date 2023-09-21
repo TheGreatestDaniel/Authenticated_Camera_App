@@ -1,0 +1,41 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "type": "object",
+  "properties": {
+    "aHQfHV1md7ZinVaYKP7Y3HaOp4M2": {
+      "type": "object",
+      "properties": {
+        "bio": { "type": "string" },
+        "date": { "type": "string" },
+        "image": { "type": "string", "format": "uri" },
+        "location": { "type": "string" },
+        "name": { "type": "string" }
+      },
+      "required": ["bio", "date", "image", "location", "name"]
+    },
+    "highScore": { "type": "integer" },
+    "jIcEFWxGPedJZu9llVKLq3rk6pM2": {
+      "type": "object",
+      "properties": {
+        "bio": { "type": "string" },
+        "date": { "type": "string" },
+        "image": { "type": "string", "format": "uri" },
+        "location": { "type": "string" },
+        "name": { "type": "string" }
+      },
+      "required": ["bio", "date", "image", "location", "name"]
+    },
+    "null": {
+      "type": "object",
+      "properties": {
+        "bio": { "type": "string" },
+        "date": { "type": "string" },
+        "image": { "type": "string", "format": "uri" },
+        "location": { "type": "string" },
+        "name": { "type": "string" }
+      },
+      "required": ["bio", "date", "image", "location", "name"]
+    }
+  },
+  "required": ["aHQfHV1md7ZinVaYKP7Y3HaOp4M2", "highScore", "jIcEFWxGPedJZu9llVKLq3rk6pM2", "null"]
+}
